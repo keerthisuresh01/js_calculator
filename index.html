@@ -73,7 +73,8 @@
     <div class="container-fluid" id="calc1">
       <div class="container">
         <div class="row">
-          <img src="./img/tan1.png" alt="" id="tan1" />
+          <div class="col-12">
+          <img src="./img/tan1.png" alt="" id="tan1" /></div>
         </div>
         <div class="row">
           <div class="col-md-12" id="h1">Bill Calculator</div>
@@ -91,18 +92,18 @@
                 </div>
                 <div class="col-md-5">
                   <form action="">
-                    <select class="form-control form-control-sm" id="p1">
+                    <select class="form-control form-control-sm col-md-12" id="p1">
                       <option>----Select the tariff----</option>
                       <option>Commercial</option>
                       <option>Domestic</option>
                     </select>
-                    <select class="form-control form-control-sm" id="p2">
+                    <select class="form-control form-control-sm col-md-12" id="p2">
                       <option id="y1">Monthly</option>
                       <option id="y2">Bi-Monthly</option>
                     </select>
                     
                     <div class="form-group">
-                      <input type="text" class="form-control" id="put2" />
+                      <input type="text" class="form-control col-md-12" id="put2" />
                     </div>
                   
                   </form>
@@ -114,14 +115,14 @@
                   id="btn1"
                   onclick="calculate()"
                   type="button"
-                  class="btn btn-warning"
+                  class="btn btn-warning"style="margin-left:13rem;"
                 >
                   Calculate
                 </button>
               </div>
 
               <div class="row">
-                <div class="col-md-4"id="n1"> Total CGPA</div>
+                <div class="col-md-4"id="n1"> Total Amount</div>
                 <div class="col-md-5">
                 <form action="">
                   <div class="form-group">
